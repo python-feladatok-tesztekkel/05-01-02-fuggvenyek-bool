@@ -6,8 +6,17 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 import feladatok
 
-class TestOsszeg(TestCase):
+class TestPozitivE(TestCase):
     def test_feladat01(self):
-        aktualis = feladatok.feladat01()
-        elvart = 0
-        self.assertEqual(elvart, aktualis, "Szöveg")
+        aktualis = feladatok.pozitiv_e(5)
+        elvart = True
+        self.assertEqual(elvart, aktualis, "Nullánál nagyobb számok esetén a pozitiv-e függvény nem megfelelően működik")
+    def test_feladat02(self):
+        aktualis = feladatok.pozitiv_e(0)
+        elvart = False
+        self.assertEqual(elvart, aktualis, "Nem pozitív szám esetén a pozitiv-e függvény nem megfelelően működik")
+    def test_feladat03(self):
+        aktualis = feladatok.pozitiv_e(-5)
+        elvart = False
+        self.assertEqual(elvart, aktualis, "Nem pozitív szám esetén a pozitiv-e függvény nem megfelelően működik")
+
