@@ -12,8 +12,9 @@
 # Írjon függvényt erdemjegy-e néven, amely egy számról eldönti, hogy érdemjegy-e (iskolai érdemjegy)!
 
 # 4. feladat
-# Írjon függvényt amely egy adott számról eldönti, hogy nem egyjegyű
+# Írjon függvényt nem_egyjegyu_szam_e néven amely
+# A függvény a bemeneti számról döntse el, hogy nem egyhegyű páros szám!
 
 # 5. feladat
-# Írjon függvényt nem_egyjegyu_paros_szam_e néven amely igaz értékkel tér vissza a nem egyjegyű páros számok esetén
+# Írjon függvényt nem_egyjegyu_paros_szam_e néven amely igaz értékkel tér vissza a nem egyjegyű páros számok esetén!
 
