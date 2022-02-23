@@ -13,7 +13,7 @@
 
 # 4. feladat
 # Írjon függvényt nem_egyjegyu_szam_e néven amely
-# A függvény a bemeneti számról döntse el, hogy nem egyhegyű páros szám!
+# A függvény a bemeneti számról döntse el, hogy nem egyhegyű szám!
 
 # 5. feladat
 # Írjon függvényt nem_egyjegyu_paros_szam_e néven amely igaz értékkel tér vissza a nem egyjegyű páros számok esetén!
